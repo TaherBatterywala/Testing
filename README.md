@@ -1,2 +1,1 @@
-# FakeVtop
-Fake VTOP hostel Details 
+#This Repo is of no use
