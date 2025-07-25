@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hostel Details - VTOP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #2f7ab8;
+      color: white;
+    }
+    .header img {
+      height: 40px;
+      border-radius: 50%;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo h1 {
+      margin-left: 10px;
+      font-size: 20px;
+    }
+    .tabs {
+      display: flex;
+      background-color: #e8edf5;
+      padding: 10px;
+    }
+    .tabs a {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #2f7ab8;
+    }
+    .tabs a.active {
+      background-color: #2f7ab8;
+      color: white;
+      border-radius: 5px;
+    }
+    .content {
+      padding: 20px;
+    }
+    .details-container {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .details-header {
+      background-color: #8b9dc3;
+      color: white;
+      padding: 10px;
+    }
+    .details-body {
+      background-color: #fbeaea;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .details-table {
+      width: 70%;
+      border-collapse: collapse;
+    }
+    .details-table th, .details-table td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    .details-table th {
+      text-align: left;
+      background-color: #f0f0f0;
+    }
+    .profile-pic-box img {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 120px;
+      height: 130px;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #2f7ab8;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="VIT Bhopal Logo" />
+    </div>
+    <div class="profile">
+      <img src="profile.png" alt="Profile Picture" />
+      <span>23BAI10502 (STUDENT)</span>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <a href="#">Personal Information</a>
+    <a href="#">Educational Information</a>
+    <a href="#">Family Information</a>
+    <a href="#">Proctor Details</a>
+    <a href="#" class="active">Hostel Details</a>
+  </nav>
+
+  <section class="content">
+    <div class="details-container">
+      <div class="details-header">Hostel Details</div>
+      <div class="details-body">
+        <table class="details-table">
+          <tr>
+            <th>Application Number</th>
+            <td>2023048343</td>
+          </tr>
+          <tr>
+            <th>Register Number</th>
+            <td>23BAI10502</td>
+          </tr>
+          <tr>
+            <th>Block Name</th>
+            <td>MENS HOSTEL BLOCK-4 (BOYS HOSTEL - Block)</td>
+          </tr>
+          <tr>
+            <th>Room No.</th>
+            <td>A211</td>
+          </tr>
+          <tr>
+            <th>Bed Type</th>
+            <td>3- BED -ACPF</td>
+          </tr>
+          <tr>
+            <th>Mess Information</th>
+            <td>Mess Data Not Found</td>
+          </tr>
+        </table>
+        <div class="profile-pic-box">
+          <img src="profile.png" alt="Profile Picture">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 VIT Bhopal. All rights reserved.</p>
+  </footer>
+</body>
+</html>

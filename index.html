@@ -33,7 +33,6 @@
     }
     .tabs {
       display: flex;
-      background-color: #e8edf5;
       padding: 10px;
     }
     .tabs a {
@@ -55,12 +54,14 @@
       overflow: hidden;
     }
     .details-header {
-      background-color: #8b9dc3;
+      background-color: #afb7e0;
+      text-align: center;
       color: white;
+      font-weight: bold;
       padding: 10px;
     }
     .details-body {
-      background-color: #fbeaea;
+      background-color: #f2dede;
       padding: 20px;
       display: flex;
       justify-content: space-between;
@@ -101,7 +102,7 @@
       <img src="logo.png" alt="VIT Bhopal Logo" />
     </div>
     <div class="profile">
-      <img src="profile.jpg" alt="Profile Picture" />
+      <img src="profile.png" alt="Profile Picture" />
       <span>23BAI10502 (STUDENT)</span>
     </div>
   </header>
@@ -116,39 +117,41 @@
 
   <section class="content">
     <div class="details-container">
-      <div class="details-header">Hostel Details</div>
+      <div class="details-header" style="background-color: rgb(175, 186, 220);">Hostel Details</div>
       <div class="details-body">
         <table class="details-table">
-          <tr>
-            <th>Application Number</th>
-            <td>2023048343</td>
-          </tr>
-          <tr>
-            <th>Register Number</th>
-            <td>23BAI10502</td>
-          </tr>
-          <tr>
-            <th>Block Name</th>
-            <td>MENS HOSTEL BLOCK-4 (BOYS HOSTEL - Block)</td>
-          </tr>
-          <tr>
-            <th>Room No.</th>
-            <td>A211</td>
-          </tr>
-          <tr>
-            <th>Bed Type</th>
-            <td>3- BED -ACPF</td>
-          </tr>
-          <tr>
-            <th>Mess Information</th>
-            <td>Mess Data Not Found</td>
-          </tr>
-        </table>
-        <div class="profile-pic-box">
-          <img src="profile.jpg" alt="Profile Picture">
+          <tbody>
+            <tr>
+              <th style="background-color: #d4d3d3;font-weight: bold;width: 30%;">Application Number</th>
+              <td style="background-color: #f2dede; width: 60%;" >2023048343</td>
+            </tr>
+            <tr>
+              <th style="background-color: #d4d3d3;font-weight: bold;width: 30%;">Register Number</th>
+              <td style="background-color: #f2dede; width: 60%;">23BAI10502</td>
+            </tr>
+            <tr>
+              <th style="background-color: #d4d3d3;font-weight: bold;width: 30%;" >Block Name</th>
+              <td style="background-color: #f2dede; width: 60%;">MENS HOSTEL BLOCK-4 (BOYS HOSTEL - Block)</td>
+            </tr>
+            <tr>
+              <th style="background-color: #d4d3d3;font-weight: bold;width: 30%;" >Room No.</th>
+              <td style="background-color: #f2dede; width: 60%;">A211</td>
+            </tr>
+            <tr>
+              <th style="background-color: #d4d3d3;font-weight: bold;width: 30%;">Bed Type</th>
+              <td style="background-color: #f2dede; width: 60%;">3- BED -ACPF</td>
+            </tr>
+            <tr>
+              <th style="background-color: #d4d3d3;font-weight: bold;width:30%;">Mess Information</th>
+              <td style="background-color: #f2dede; width: 60%;">Mess Data Not Found</td>
+            </tr>
+          </tbody>
+       </table>
+          <div class="profile-pic-box">
+            <img src="profile.png" alt="Profile Picture">
+          </div>
         </div>
       </div>
-    </div>
   </section>
 
   <footer class="footer">
